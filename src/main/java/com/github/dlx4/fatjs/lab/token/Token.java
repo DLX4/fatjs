@@ -1,4 +1,4 @@
-package com.github.dlx4.fajs.lab.token;
+package com.github.dlx4.fatjs.lab.token;
 /**
  * 一个简单的Token。
  * 只有类型和文本值两个属性。

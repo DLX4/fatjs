@@ -1,4 +1,4 @@
-package com.github.dlx4.fajs.lab.ast;
+package com.github.dlx4.fatjs.lab.ast;
 
 
 import java.util.List;

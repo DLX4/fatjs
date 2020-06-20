@@ -1,4 +1,4 @@
-package com.github.dlx4.fajs.lab.token;
+package com.github.dlx4.fatjs.lab.token;
 /**
  * Token的类型
  */

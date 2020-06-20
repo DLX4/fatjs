@@ -1,4 +1,4 @@
-grammar fatjs;
+grammar Fatjs;
 import CommonLexer;   
 
 

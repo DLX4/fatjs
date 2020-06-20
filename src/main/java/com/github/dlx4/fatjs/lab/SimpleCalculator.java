@@ -1,10 +1,10 @@
-package com.github.dlx4.fajs.lab;
+package com.github.dlx4.fatjs.lab;
 
-import com.github.dlx4.fajs.lab.ast.ASTNode;
-import com.github.dlx4.fajs.lab.ast.ASTNodeType;
-import com.github.dlx4.fajs.lab.token.Token;
-import com.github.dlx4.fajs.lab.token.TokenReader;
-import com.github.dlx4.fajs.lab.token.TokenType;
+import com.github.dlx4.fatjs.lab.ast.ASTNode;
+import com.github.dlx4.fatjs.lab.ast.ASTNodeType;
+import com.github.dlx4.fatjs.lab.token.Token;
+import com.github.dlx4.fatjs.lab.token.TokenReader;
+import com.github.dlx4.fatjs.lab.token.TokenType;
 
 import java.util.ArrayList;
 import java.util.Collections;

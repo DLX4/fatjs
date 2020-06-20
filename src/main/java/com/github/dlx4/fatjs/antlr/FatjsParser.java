@@ -1,15 +1,15 @@
-// Generated from Fatjs.g4 by ANTLR 4.7.2
+package com.github.dlx4.fatjs.antlr;// Generated from Fatjs.g4 by ANTLR 4.7.2
 
 
 
-import org.antlr.v4.runtime.atn.*;
-import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.misc.*;
-import org.antlr.v4.runtime.tree.*;
-import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
+import org.antlr.v4.runtime.atn.ATN;
+import org.antlr.v4.runtime.atn.ATNDeserializer;
+import org.antlr.v4.runtime.atn.ParserATNSimulator;
+import org.antlr.v4.runtime.atn.PredictionContextCache;
+import org.antlr.v4.runtime.dfa.DFA;
+import org.antlr.v4.runtime.tree.ParseTreeListener;
+import org.antlr.v4.runtime.tree.TerminalNode;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class FatjsParser extends Parser {
@@ -155,11 +155,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitLiteral(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitLiteral(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final LiteralContext literal() throws RecognitionException {
@@ -204,11 +199,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitPrimitiveType(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitPrimitiveType(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -260,11 +250,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitStatement(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitStatement(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -329,11 +314,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitExpressionStatement(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitExpressionStatement(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final ExpressionStatementContext expressionStatement() throws RecognitionException {
@@ -387,11 +367,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitDeclaration(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitDeclaration(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -454,11 +429,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitInitializer(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitInitializer(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final InitializerContext initializer() throws RecognitionException {
@@ -504,11 +474,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitExpression(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitExpression(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final ExpressionContext expression() throws RecognitionException {
@@ -534,7 +499,7 @@ public class FatjsParser extends Parser {
 			setState(65);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,3,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!=ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;
@@ -587,11 +552,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitAssignmentExpression(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitAssignmentExpression(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -658,11 +618,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitAssignmentOperator(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitAssignmentOperator(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final AssignmentOperatorContext assignmentOperator() throws RecognitionException {
@@ -716,11 +671,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitAdditiveExpression(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitAdditiveExpression(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final AdditiveExpressionContext additiveExpression() throws RecognitionException {
@@ -746,7 +696,7 @@ public class FatjsParser extends Parser {
 			setState(88);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,6,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!=ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;
@@ -820,11 +770,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitMultiplicativeExpression(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitMultiplicativeExpression(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final MultiplicativeExpressionContext multiplicativeExpression() throws RecognitionException {
@@ -850,7 +795,7 @@ public class FatjsParser extends Parser {
 			setState(105);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,8,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!=ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;
@@ -938,11 +883,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitPrimaryExpression(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitPrimaryExpression(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -1033,11 +973,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitArgumentExpressionList(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitArgumentExpressionList(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final ArgumentExpressionListContext argumentExpressionList() throws RecognitionException {
@@ -1063,7 +998,7 @@ public class FatjsParser extends Parser {
 			setState(130);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,11,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!=ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;
@@ -1114,11 +1049,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitCompoundStatement(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitCompoundStatement(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -1175,11 +1105,6 @@ public class FatjsParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitBlockItemList(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitBlockItemList(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final BlockItemListContext blockItemList() throws RecognitionException {
@@ -1205,7 +1130,7 @@ public class FatjsParser extends Parser {
 			setState(146);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,13,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!=ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;
@@ -1255,11 +1180,6 @@ public class FatjsParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof FatjsListener ) ((FatjsListener)listener).exitBlockItem(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof FatjsVisitor ) return ((FatjsVisitor<? extends T>)visitor).visitBlockItem(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 

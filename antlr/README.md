@@ -1,4 +1,4 @@
-java -jar ./antlr-4.7.2-complete.jar Fatjs.g4
+java -jar ./antlr-4.7.2-complete.jar -visitor Fatjs.g4
 
 javac *.java
 

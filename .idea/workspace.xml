@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663e8910-7124-45bc-89e8-af577ff66857" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/PlayScriptLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/PlayScriptLexer.tokens" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/antlr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjs.g4" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjs.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/ast/ASTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/ast/ASTNodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/token/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/token/TokenReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/TokenReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/token/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,23 +22,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FatJs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java">
+      <file leaf-file-name="RuleContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/RuleContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="182" column="64" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractParseTreeVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#4851#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1875#1876#0" expanded="true" />
+                <element signature="e#2581#2582#0" expanded="true" />
+                <element signature="e#2599#2600#0" expanded="true" />
+                <element signature="e#3537#3538#0" expanded="true" />
+                <element signature="e#3561#3562#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASTEvaluator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FatjsParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="726" column="43" selection-start-line="726" selection-start-column="43" selection-end-line="726" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseTree.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/ParseTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseTreeVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/ParseTreeVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-373">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminalNode.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/TerminalNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTEvaluator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="988">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,25 +99,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FatJs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="456">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fatjs.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr/Fatjs.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1698" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FatjsBaseVisitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminalNodeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding>
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -102,6 +146,7 @@
     <findStrings>
       <find>PlayScript</find>
       <find>BaseVisitor</find>
+      <find>ter</find>
     </findStrings>
     <replaceStrings>
       <replace>Fatjs</replace>
@@ -123,12 +168,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fajs/lab/SimpleScript.java" />
-        <option value="$PROJECT_DIR$/antlr/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java" />
+        <option value="$PROJECT_DIR$/antlr/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" />
       </list>
     </option>
   </component>
@@ -142,10 +187,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="28" />
-    <option name="width" value="1720" />
-    <option name="height" value="1103" />
+    <option name="x" value="8" />
+    <option name="y" value="22" />
+    <option name="width" value="1083" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,11 +205,6 @@
             <path>
               <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fatjs" type="462c0819:PsiDirectoryNode" />
-              <item name="antlr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
@@ -357,12 +397,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592649417684</updated>
-      <workItem from="1592649421976" duration="7850000" />
+      <workItem from="1592649421976" duration="12206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7850000" />
+    <option name="totallyTimeSpent" value="12206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -377,20 +417,20 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23055163" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27722773" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="leetcode" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3378016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2191689" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36209336" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,8 +495,44 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -580,48 +656,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/antlr/Fatjs.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1698" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/antlr/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="114">
-            <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java">
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7.2-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="181">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/antlr/antlr4/4.7.2/antlr4-4.7.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar!/org/antlr/v4/runtime/tree/ParseTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/misc/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/TerminalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/ParseTreeVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/RuleContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="182" column="64" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/ParseTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#4851#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2599#2600#0" expanded="true" />
+            <element signature="e#3537#3538#0" expanded="true" />
+            <element signature="e#3561#3562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="132">
+          <caret line="726" column="43" selection-start-line="726" selection-start-column="43" selection-end-line="726" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/antlr/Fatjs.g4">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1698" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="456">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

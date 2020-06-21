@@ -13,8 +13,8 @@ import org.antlr.v4.runtime.tree.ParseTree;
 public class FatJs {
 
     public static void main(String args[]) {
-        String script = "2+6/3";
-        //String script = "2+6*3";
+        //String script = "2+6/3";
+        String script = "2+6*3";
 
         //词法分析
         FatjsLexer lexer = new FatjsLexer(CharStreams.fromString(script));

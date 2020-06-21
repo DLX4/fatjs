@@ -33,11 +33,17 @@
     <dependencies>
         <dependency>
             <groupId>org.antlr</groupId>
+            <artifactId>antlr4</artifactId>
+            <version>4.7.2</version>
+        </dependency>
+
+<!--        <dependency>
+            <groupId>org.antlr</groupId>
             <artifactId>antlr4-master</artifactId>
             <version>4.7.2</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/antlr-4.7.2-complete.jar</systemPath>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
 </project>

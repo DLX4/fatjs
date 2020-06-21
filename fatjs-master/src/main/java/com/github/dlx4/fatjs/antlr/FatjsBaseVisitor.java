@@ -1,4 +1,4 @@
-// Generated from Fatjs.g4 by ANTLR 4.7.2
+package com.github.dlx4.fatjs.antlr;// Generated from Fatjs.g4 by ANTLR 4.7.2
 
 
 

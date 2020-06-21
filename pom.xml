@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.dlx4</groupId>
-    <artifactId>fatjs</artifactId>
+    <artifactId>fatjs-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -13,22 +14,19 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>10</source>
+                    <target>10</target>
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.antlr</groupId>
-                <artifactId>antlr4-maven-plugin</artifactId>
-                <configuration>
-                    <visitor>true</visitor>
-                </configuration>
-            </plugin>
         </plugins>
 
 
     </build>
+    <modules>
+        <module>fatjs-lab1</module>
+        <module>fatjs-master</module>
+    </modules>
 
     <dependencies>
         <dependency>

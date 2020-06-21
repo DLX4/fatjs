@@ -1,7 +1,7 @@
 package com.github.dlx4.fatjs;
 
-import com.github.dlx4.fatjs.antlr.FatjsLexer;
 import com.github.dlx4.fatjs.antlr.FatjsParser;
+import com.github.dlx4.fatjs.antlr.FatjsLexer;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;

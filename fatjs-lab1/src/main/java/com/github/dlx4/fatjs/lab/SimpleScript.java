@@ -1,5 +1,6 @@
 package com.github.dlx4.fatjs.lab;
 
+
 import com.github.dlx4.fatjs.lab.ast.ASTNode;
 import com.github.dlx4.fatjs.lab.ast.ASTNodeType;
 

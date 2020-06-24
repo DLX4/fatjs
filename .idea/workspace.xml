@@ -2,99 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663e8910-7124-45bc-89e8-af577ff66857" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/FatJs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/SimpleLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/SimpleParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/SimpleScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/token/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/token/TokenReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/token/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AnnotatedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AsmGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BlockScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BreakObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ByteCodeGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClassObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClosureAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/CompilationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultFunctionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Fatjs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FatjsCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FunctionObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FunctionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/LValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/NameSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/NullObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/PlayObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/PrimitiveType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/RefResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ReturnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/SematicValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/StackFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/This.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/TypeAndScopeScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/TypeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/TypeResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/VoidType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/BlockScope.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/ClassTest.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/FirstClassFunction.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/LinkedList.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/UseBeforeDeclare.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/asm.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/bytecode.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/closure-fibonacci.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/closure-mammal.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/closure.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/expressions.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/function.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/loop.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/mammal.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/regression.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/scratch.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/sematic-check.play" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatjs-master/src/examples/this-and-super.play" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/CommonLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/CommonLexer.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/FatjsBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/FatjsBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/FatjsVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/FatjsVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjs.g4" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjs.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjs.interp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjs.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjs.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjs.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/fatjsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/fatjsParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/SimpleScript.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/ast/ASTNodeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/TokenReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/lab/token/TokenType.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,23 +39,11 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FatjsCompiler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FatjsCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fatjs.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Fatjs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Fatjs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
+            <state relative-caret-position="190">
               <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,86 +52,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASTEvaluator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="1315" column="36" selection-start-line="1315" selection-start-column="36" selection-end-line="1315" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fatjs-master/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="55" column="42" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByteCodeGen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ByteCodeGen.java">
+      <file leaf-file-name="closure.play" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/closure.play">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding>
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-228" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expressions.play" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/expressions.play">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="8" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassWriter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/org/objectweb/asm/ClassWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Opcodes.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/org/objectweb/asm/Opcodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="376" column="8" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fatjs-master/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="44" column="19" selection-start-line="30" selection-start-column="4" selection-end-line="44" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Label.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/org/objectweb/asm/Label.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsmGen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AsmGen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="asm.play" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/asm.play">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -235,6 +102,7 @@
       <find>C:/Program Files/Java/jdk1.8.0_201/jre/lib</find>
       <find>jdk.internal.org.objectweb</find>
       <find>PlayScript</find>
+      <find>src/</find>
     </findStrings>
     <replaceStrings>
       <replace>Class</replace>
@@ -246,10 +114,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_3.groovy" />
+          <option name="moduleName" value="fatjs-master" />
+          <option name="title" value="fatjs-master (Bundled Groovy 2.4.12)" />
+        </Entry>
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/antlr/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/FatJs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java" />
@@ -300,6 +178,7 @@
         <option value="$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ByteCodeGen.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fatjs-master/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_3.groovy" />
       </list>
     </option>
   </component>
@@ -338,18 +217,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="21" />
-    <option name="width" value="1084" />
-    <option name="height" value="779" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="975" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,11 +237,6 @@
             <path>
               <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatjs" type="462c0819:PsiDirectoryNode" />
-              <item name="antlr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fatjs" type="462c0819:PsiDirectoryNode" />
               <item name="fatjs-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,21 +264,20 @@
               <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatjs" type="462c0819:PsiDirectoryNode" />
               <item name="fatjs-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fatjs" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fatjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="fatjs" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,12 +292,16 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\fatjs\fatjs-master\src" />
+      <recent name="D:\code\fatjs\fatjs-master" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\fatjs\fatjs-master\examples" />
+      <recent name="D:\code\fatjs\fatjs-master\src" />
       <recent name="D:\code\fatjs\fatjs-master\src\main\java\com\github\dlx4\fatjs" />
       <recent name="D:\code\fatjs\fatjs-master\src\main\java\com\github\dlx4\fatjs\antlr" />
       <recent name="D:\code\fatjs\fatjs-master\src\main\java" />
-      <recent name="D:\code\fatjs\fatjs-lab1\src\main\java" />
-      <recent name="D:\code\fatjs\src\main\java\com\github\dlx4\fatjs\antlr" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FatJs (3)">
+  <component name="RunManager" selected="Application.Fatjs">
     <configuration name="FatJs (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fatjs.FatJs" />
       <module name="fatjs-lab1" />
@@ -479,6 +354,18 @@
       <option name="MAIN_CLASS_NAME" value="com.github.dlx4.fatjs.FatJs" />
       <module name="fatjs-lab1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dlx4.fatjs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Fatjs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dlx4.fatjs.Fatjs" />
+      <module name="fatjs-master" />
+      <option name="PROGRAM_PARAMETERS" value="src/examples/closure.play" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.dlx4.fatjs.*" />
@@ -541,15 +428,13 @@
     <list>
       <item itemvalue="Application.FatJs" />
       <item itemvalue="Application.FatJs (1)" />
-      <item itemvalue="Application.FatJs (2)" />
-      <item itemvalue="Application.FatJs (3)" />
       <item itemvalue="Application.SimpleScript (1)" />
+      <item itemvalue="Application.Fatjs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FatJs (3)" />
+        <item itemvalue="Application.Fatjs" />
         <item itemvalue="Application.SimpleScript (1)" />
-        <item itemvalue="Application.FatJs (2)" />
         <item itemvalue="Application.FatJs (1)" />
         <item itemvalue="Application.FatJs" />
       </list>
@@ -565,46 +450,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592649417684</updated>
-      <workItem from="1592649421976" duration="20015000" />
+      <workItem from="1592649421976" duration="22225000" />
+      <workItem from="1592827917854" duration="1381000" />
+      <workItem from="1592841915807" duration="3563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20015000" />
+    <option name="totallyTimeSpent" value="27169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32956153" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.19839142" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32956153" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09584451" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="leetcode" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35643566" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="leetcode" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2191689" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36209336" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,100 +561,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/lab/SimpleScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-lab1/src/main/java/com/github/dlx4/fatjs/FatJs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Type.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FunctionType.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/PlayObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/NullObject.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultFunctionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Symbol.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,21 +574,10 @@
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/NameSpace.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BlockScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/This.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,31 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="178" column="47" lean-forward="true" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="94" column="35" lean-forward="true" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClassObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -853,22 +605,6 @@
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/FunctionObject.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/CompilationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AnnotatedTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="234" column="14" lean-forward="true" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1063#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/LValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -879,16 +615,10 @@
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ReturnObject.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BreakObject.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/TypeAndScopeScanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="201" column="40" lean-forward="true" selection-start-line="201" selection-start-column="40" selection-end-line="201" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="488" column="36" selection-start-line="488" selection-start-column="36" selection-end-line="488" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,11 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,18 +671,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClosureAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/antlr/FatjsVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -976,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,36 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Fatjs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="1315" column="36" selection-start-line="1315" selection-start-column="36" selection-end-line="1315" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AsmGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,21 +716,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ByteCodeGen.java">
+    <entry file="file://$PROJECT_DIR$/fatjs-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fatjs-master/pom.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/asm-7.2.jar!/org/objectweb/asm/MethodVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        <state relative-caret-position="76">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/asm-7.2-sources.jar!/org/objectweb/asm/MethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AnnotatedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4176">
+          <caret line="234" column="14" lean-forward="true" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/AsmGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ASTEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1315" column="36" selection-start-line="1315" selection-start-column="36" selection-end-line="1315" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BlockScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/BreakObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ByteCodeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3268">
+          <caret line="178" column="47" lean-forward="true" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClassObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/ClosureAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/CompilationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/DefaultFunctionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/sun/nio/cs/Unicode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/sun/nio/cs/UTF_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4427">
+          <caret line="278" column="22" selection-start-line="278" selection-start-column="22" selection-end-line="278" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/groovy-all-2.4.12.jar!/groovy/lang/Script.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34029">
+          <caret line="1870" column="18" selection-start-line="1870" selection-start-column="18" selection-end-line="1870" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_3.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/asm.play">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/expressions.play">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="8" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/examples/closure.play">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="55" column="42" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatjs-master/src/main/java/com/github/dlx4/fatjs/Fatjs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
